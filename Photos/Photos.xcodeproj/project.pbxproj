@@ -15,6 +15,10 @@
 		3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A21BE9B717009F39C5 /* Utils.swift */; };
 		3A1683A71BE9C593009F39C5 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */; };
 		3A1683A91BE9C5A7009F39C5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A81BE9C5A7009F39C5 /* Photo.swift */; };
+		502E17A61CBDE288005CA2C1 /* Hearts Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 502E17A41CBDE288005CA2C1 /* Hearts Filled-100.png */; };
+		502E17A71CBDE288005CA2C1 /* Hearts-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 502E17A51CBDE288005CA2C1 /* Hearts-100.png */; };
+		50B2C7761CB9B07200CE1580 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2C7751CB9B07200CE1580 /* PhotosCollectionViewCell.swift */; };
+		50B2C7781CB9B09900CE1580 /* SinglePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2C7771CB9B09900CE1580 /* SinglePhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		3A1683A21BE9B717009F39C5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramAPI.swift; sourceTree = "<group>"; };
 		3A1683A81BE9C5A7009F39C5 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		502E17A41CBDE288005CA2C1 /* Hearts Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hearts Filled-100.png"; sourceTree = "<group>"; };
+		502E17A51CBDE288005CA2C1 /* Hearts-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hearts-100.png"; sourceTree = "<group>"; };
+		50B2C7751CB9B07200CE1580 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		50B2C7771CB9B09900CE1580 /* SinglePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,8 @@
 				3A1683A11BE9B70C009F39C5 /* Utils */,
 				3A16838F1BE9B642009F39C5 /* AppDelegate.swift */,
 				3A1683931BE9B642009F39C5 /* Main.storyboard */,
+				502E17A41CBDE288005CA2C1 /* Hearts Filled-100.png */,
+				502E17A51CBDE288005CA2C1 /* Hearts-100.png */,
 				3A1683961BE9B642009F39C5 /* Assets.xcassets */,
 				3A1683981BE9B642009F39C5 /* LaunchScreen.storyboard */,
 				3A16839B1BE9B642009F39C5 /* Info.plist */,
@@ -84,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				3A1683911BE9B642009F39C5 /* PhotosCollectionViewController.swift */,
+				50B2C7751CB9B07200CE1580 /* PhotosCollectionViewCell.swift */,
+				50B2C7771CB9B09900CE1580 /* SinglePhotoViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -156,8 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A16839A1BE9B642009F39C5 /* LaunchScreen.storyboard in Resources */,
+				502E17A71CBDE288005CA2C1 /* Hearts-100.png in Resources */,
 				3A1683971BE9B642009F39C5 /* Assets.xcassets in Resources */,
 				3A1683951BE9B642009F39C5 /* Main.storyboard in Resources */,
+				502E17A61CBDE288005CA2C1 /* Hearts Filled-100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,10 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A1683921BE9B642009F39C5 /* PhotosCollectionViewController.swift in Sources */,
+				50B2C7781CB9B09900CE1580 /* SinglePhotoViewController.swift in Sources */,
 				3A1683901BE9B642009F39C5 /* AppDelegate.swift in Sources */,
 				3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */,
 				3A1683A71BE9C593009F39C5 /* InstagramAPI.swift in Sources */,
 				3A1683A91BE9C5A7009F39C5 /* Photo.swift in Sources */,
+				50B2C7761CB9B07200CE1580 /* PhotosCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
